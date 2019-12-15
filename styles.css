@@ -1,0 +1,141 @@
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding:3% 15% 10%;
+}
+
+
+h1{
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 900;
+  font-size: 3rem;
+  line-height:1.5;
+  color: white;
+}
+
+/* navbar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+/* download buttons */
+.download-button{
+  margin:5% 3% 0;
+}
+.dog-top{
+  width:50%;
+  margin-top:50px;
+  position: absolute;
+  right:30%;
+}
+
+/* second-section */
+
+h3{
+
+font-weight: 900;
+font-size:1.5rem;
+}
+
+.icon{
+  color:#ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ef8172;
+}
+#features{
+padding: 7% 15%;
+background-color:#fff;
+position: relative;
+}
+.col-lg-4{
+  text-align: center;
+  padding: 5%;
+}
+p{
+  color: grey;
+}
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color:#ef8172;
+  color: white;
+}
+h2{
+  font-weight: 900;
+  font-size:2.5rem;
+  line-height:1.5;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:2%;
+}
+#press{
+background-color:#ef8172;
+text-align: center;
+}
+.press-logo{
+  width:10%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+   padding: 7% 15%;
+}
+/* pricing */
+.card-header{
+  background-color:#ff4c68;
+}
+#pricing{
+  padding:15px 15px;
+  background-color:white;
+}
+.pricing-text{
+  padding:4% 2%;
+  text-align: center;
+}
+/* title-image responsive-breaking points*/
+@media (max-width:990px){
+ .dog-top{
+  position:static;
+  transform: rotate(0);
+ }
+ #title{
+   text-align: center;
+ }
+}
+/* CTA section */
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding:7% 20%;
+  color: white;
+}
+.cta-text{
+ font-size:2.8rem;
+}
+
+/* footer-section */
+#footer{
+  background-color:#f9d5bb;
+  text-align: center;
+  padding:7% 15%;
+}
+.social-icon{
+  margin:20px 10px;
+  color: black;
+}
